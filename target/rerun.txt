@@ -1,0 +1,1 @@
+file:src/main/resources/Features/SC12_CheckOut.feature:10

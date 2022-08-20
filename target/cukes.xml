@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="293.554">
-<testcase classname="User Registration" name="user could register with valid first name last name email password and confirm_password" time="17.356">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="265.531">
+<testcase classname="User Registration" name="user could register with valid first name last name email password and confirm_password" time="15.748">
 <system-out><![CDATA[Given Go to Registration Page...............................................passed
 When Enter valid "automation" "tester" "Test1@example.com" "P@ssw0rd" and "P@ssw0rd".passed
 And User click on register button...........................................passed
 Then User Directed to profile page..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Registration" name="user could register with valid necessary and optional data" time="19.381">
+<testcase classname="User Registration" name="user could register with valid necessary and optional data" time="18.872">
 <system-out><![CDATA[Given Go to Registration Page...............................................passed
 When user select female gender..............................................passed
 And Enter valid "automation" "tester" "Test2@example.com" "P@ssw0rd" and "P@ssw0rd".passed
@@ -18,14 +18,14 @@ And User click on register button...........................................pass
 Then User Directed to profile page..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F02_Login | users could use login functionality to open their accounts" name="user could login with valid email and password" time="11.451">
+<testcase classname="F02_Login | users could use login functionality to open their accounts" name="user could login with valid email and password" time="9.731">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
 Then user login to the system successfully..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F03_PasswordRest | user is able to rest his account password" name="user is able to rest his account password" time="12.285">
+<testcase classname="F03_PasswordRest | user is able to rest his account password" name="user is able to rest his account password" time="10.403">
 <system-out><![CDATA[Given user go to login page.................................................passed
 And user click on Forgot password?..........................................passed
 When user enter his email "Test1@example.com"...............................passed
@@ -33,7 +33,7 @@ And clicks on Recover button................................................pass
 Then System confirms email have been sent...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC04_Search | users will be able to search for products" name="user could search for product using fullname" time="12.81">
+<testcase classname="SC04_Search | users will be able to search for products" name="user could search for product using fullname" time="11.156">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -43,7 +43,7 @@ And user search with name of product........................................pass
 Then user could find relative results.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC04_Search | users will be able to search for products" name="user could search for product using SKU" time="15.03">
+<testcase classname="SC04_Search | users will be able to search for products" name="user could search for product using SKU" time="14.834">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -53,7 +53,7 @@ And user search with sku of product.........................................pass
 Then user could find the desired product....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Switch Currency | user could switch between the available currencies" name="user make sure about the default currency" time="10.418">
+<testcase classname="Switch Currency | user could switch between the available currencies" name="user make sure about the default currency" time="9.882">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -61,7 +61,7 @@ Then user login to the system successfully..................................pass
 Given user will make sure that default currency is US_dollar................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Switch Currency | user could switch between the available currencies" name="user could select any option from currency dropdown" time="11.506">
+<testcase classname="Switch Currency | user could switch between the available currencies" name="user could select any option from currency dropdown" time="11.072">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -71,7 +71,7 @@ When user select any option from dropdown...................................pass
 Then user will see option sign in all products and it is switched successfully.passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC06_ChangeCategories| user could hover on any option and select different categories" name="logged user could hover on Apparel option and select clothes category" time="13.903">
+<testcase classname="SC06_ChangeCategories| user could hover on any option and select different categories" name="logged user could hover on Apparel option and select clothes category" time="14.828">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -80,7 +80,7 @@ When user hover on Apparel option and select clothes category...............pass
 Then user move successfully to the clothes page.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC07_ColorFilters | Logged user could filter with color" name="logged user could hover on Apparel option and select clothes category" time="17.496">
+<testcase classname="SC07_ColorFilters | Logged user could filter with color" name="logged user could hover on Apparel option and select clothes category" time="11.984">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -91,7 +91,7 @@ When Selecting "red" color option...........................................pass
 Then Filter is applied......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC08_SelectTags | Logged user could select different tags" name="Logged user could filter the content with different tags" time="14.056">
+<testcase classname="SC08_SelectTags | Logged user could select different tags" name="Logged user could filter the content with different tags" time="11.958">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -102,7 +102,7 @@ When user click on "awesome" Tag............................................pass
 Then user redirected to correct page........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC09_Shopping cart | Logged user could add different products to Shopping cart" name="products will added to shopping cart when user click on add to shopping cart from home page" time="17.008">
+<testcase classname="SC09_Shopping cart | Logged user could add different products to Shopping cart" name="products will added to shopping cart when user click on add to shopping cart from home page" time="15.386">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -112,7 +112,7 @@ And Go to shopping cart page................................................pass
 Then phone product will added to shopping cart..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC09_Shopping cart | Logged user could add different products to Shopping cart" name="products will added to shopping cart when user click on add to shopping cart from detailed page" time="17.865">
+<testcase classname="SC09_Shopping cart | Logged user could add different products to Shopping cart" name="products will added to shopping cart when user click on add to shopping cart from detailed page" time="17.043">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -123,7 +123,7 @@ And clicks on add to cart button from detailed page.........................pass
 Then Apple product will added to shopping cart..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC10_WishList | logged user could add products to wishlist" name="products will added to wishlist when user click on add to wishlist from detailed page" time="19.322">
+<testcase classname="SC10_WishList | logged user could add products to wishlist" name="products will added to wishlist when user click on add to wishlist from detailed page" time="20.407">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -134,7 +134,7 @@ And user go to wish list page...............................................pass
 Then pc product will added to wishlist......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SC11_Compare | Logged user could add different products to compare list" name="products will added to compare list when user click on add to compare list from detailed page" time="34.159">
+<testcase classname="SC11_Compare | Logged user could add different products to compare list" name="products will added to compare list when user click on add to compare list from detailed page" time="32.648">
 <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
@@ -149,8 +149,8 @@ And user go to compare list page............................................pass
 Then products will be added to compareList..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="CheckOut | Create successful Order" name="user could checkout his order when he fill all required data" time="48.35">
-<system-out><![CDATA[Given user go to login page.................................................passed
+<testcase classname="CheckOut | Create successful Order" name="user could checkout his order when he fill all required data" time="38.579">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user go to login page.................................................passed
 When user login with "valid" "Test1@example.com" and "P@ssw0rd".............passed
 And user press on login button..............................................passed
 Then user login to the system successfully..................................passed
@@ -163,7 +163,16 @@ And user select Ground of shipping method and press continue................pass
 And user select Check_money for payment method and press continue...........passed
 And user press continue for payment information.............................passed
 And user press confirm for confirm order....................................passed
-Then order has been successfully processed..................................passed
-]]></system-out>
+Then order has been successfully processed..................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at Step_Definitions.D12_CheckOut_StepDefs.order_has_been_successfully_processed(D12_CheckOut_StepDefs.java:80)
+	at ✽.order has been successfully processed(file:///C:/Users/Administrator/Desktop/Software%20Testing%20-%20EGFWD/EGFWD_E-Commerce-App-Automation-Testing-master/src/main/resources/Features/SC12_CheckOut.feature:21)
+]]></failure>
 </testcase>
 </testsuite>
