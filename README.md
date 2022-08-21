@@ -41,9 +41,11 @@
 ![image](https://user-images.githubusercontent.com/77552628/185746389-8ea109ea-1f61-428b-a82d-bcd9d2d645a2.png)
 
 ### Selected Maven stable version from the Maven website
-![image](https://user-images.githubusercontent.com/77552628/185746454-943a5076-383f-494a-816f-9060fcf18852.png)
+![image](https://user-images.githubusercontent.com/77552628/185797780-b7714bf4-ce28-4fbe-ac93-87148b649713.png)
+![image](https://user-images.githubusercontent.com/77552628/185797851-290242ba-19e8-4126-951d-5c46a26f532c.png)
 
 ### Maven repository/website automation, assertion, and behavioral-driven frameworks
+![image](https://user-images.githubusercontent.com/77552628/185797626-36af66a8-1962-428c-b157-214437bf5f9f.png)
 ![image](https://user-images.githubusercontent.com/77552628/185746534-f5c539f5-281d-417f-8d3c-073be06e306e.png)
 ![image](https://user-images.githubusercontent.com/77552628/185746560-e562dd6e-10ef-45bd-9bef-9eb9f5332eb8.png)
 ![image](https://user-images.githubusercontent.com/77552628/185746688-822a1487-4073-4ffe-a290-195b51c1984e.png)
