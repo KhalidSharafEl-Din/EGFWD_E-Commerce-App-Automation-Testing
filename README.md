@@ -33,11 +33,13 @@
 ### Environment Varialbes 
 ![image](https://user-images.githubusercontent.com/77552628/185743725-afab1d6c-73f6-4c7a-85c4-739f56027e7f.png)
 ![image](https://user-images.githubusercontent.com/77552628/185744311-a5adfa59-c499-4f24-8e99-551c02fb8d0a.png)
+![image](https://user-images.githubusercontent.com/77552628/186278805-55963ab3-e067-4c98-806c-9be073426474.png)
 
 ### External Libraries 
 ![image](https://user-images.githubusercontent.com/77552628/185746228-d798f784-91f0-4b20-8662-2ed6d8841a71.png)
 
 ### Maven Project Settings 
+![image](https://user-images.githubusercontent.com/77552628/186279196-8fd6f5cc-709c-4285-8b75-99321ef3b613.png)
 ![image](https://user-images.githubusercontent.com/77552628/185746389-8ea109ea-1f61-428b-a82d-bcd9d2d645a2.png)
 
 ### Selected Maven stable version from the Maven website
@@ -52,6 +54,7 @@
 
 ###  IntelliJ plugins showing required Plugins installed
 ![image](https://user-images.githubusercontent.com/77552628/185746728-943d422b-71cf-4880-8981-5b0c3a1d98d2.png)
+![image](https://user-images.githubusercontent.com/77552628/186279508-e72b6d23-e2e7-4213-8f0a-620edada147c.png)
 
 ## Test Execution Reprot: 
 ![image](https://user-images.githubusercontent.com/77552628/185742690-567cdd11-df95-438e-88f2-9e466319d7fb.png)
